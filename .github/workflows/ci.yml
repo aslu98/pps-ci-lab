@@ -1,0 +1,6 @@
+on: push
+runs-on: ubuntu-latest
+image: java:15-jdk
+build:
+  script:
+    - ./gradlew clean build
